@@ -11,4 +11,4 @@ resp.raise_for_status()
 data = resp.json()
 temp = data['forecast']['temp']
 
-print(f"hello world, it's {temp} outside!")
+print(f"The outdoor temperature is {temp}º F.")
