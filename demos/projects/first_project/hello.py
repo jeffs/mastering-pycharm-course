@@ -3,9 +3,9 @@ import toml
 
 # import sqlalchemy
 
-data = toml.load("./data.toml")
+static = toml.load("static.toml")
 
-resp = requests.get(data["url"])
+resp = requests.get(static["url"])
 resp.raise_for_status()
 
 data = resp.json()
