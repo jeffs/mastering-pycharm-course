@@ -1,9 +1,6 @@
 import requests
 import toml
 
-# import sqlalchemy
-
-
 resp = requests.get(**toml.load("request.toml"))
 resp.raise_for_status()
 
