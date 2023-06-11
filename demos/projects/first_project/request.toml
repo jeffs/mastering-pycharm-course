@@ -1,0 +1,7 @@
+url = "https://weather.talkpython.fm/api/weather"
+
+[params]
+city = "portland"
+state = "OR"
+country = "US"
+units = "imperial"
